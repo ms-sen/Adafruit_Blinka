@@ -47,6 +47,8 @@ elif chip_id == ap_chip.AM33XX:
     from adafruit_blinka.microcontroller.am335x import *
 elif chip_id == ap_chip.AM65XX:
     from adafruit_blinka.microcontroller.am65xx import *
+elif chip_id == ap_chip.AM625X:
+    from adafruit_blinka.microcontroller.am625x import *
 elif chip_id == ap_chip.JH71X0:
     from adafruit_blinka.microcontroller.starfive.JH71x0 import *
 elif chip_id == ap_chip.JH7110:

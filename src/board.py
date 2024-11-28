@@ -95,6 +95,9 @@ elif board_id == ap_board.BEAGLEBONE_AI:
 elif board_id == ap_board.BEAGLEV_STARLIGHT:
     from adafruit_blinka.board.beagleboard.beaglev_starlight import *
 
+elif board_id == ap_board.BEAGLE_PLAY:
+    from adafruit_blinka.board.beagleboard.beagleplay import *
+
 elif board_id == ap_board.ORANGE_PI_PC:
     from adafruit_blinka.board.orangepi.orangepipc import *
 
